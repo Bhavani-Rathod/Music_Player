@@ -20,12 +20,12 @@
         <ImageButton
             android:id="@+id/backBtnFA"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:backgroundTint="@color/transparent"
             android:contentDescription="@string/back_btn"
+            android:padding="5dp"
             android:src="@drawable/back_icon"
-            app:tint="@color/white"
-            android:padding="5dp"/>
+            app:tint="@color/white" />
 
         <TextView
             android:layout_width="match_parent"
@@ -66,6 +66,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9"
         app:strokeWidth="2dp"
-        app:strokeColor="?attr/themeColor"/>
+        app:strokeColor="?attr/themeColor"
+        android:contentDescription="@string/shuffle_btn"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

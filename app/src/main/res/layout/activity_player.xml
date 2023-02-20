@@ -19,8 +19,8 @@
 <!--   Back Button -->
         <ImageButton
             android:id="@+id/backBtnPA"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
             android:src="@drawable/back_icon"
             android:background="@color/transparent"
             android:layout_marginStart="5dp"
@@ -41,8 +41,8 @@
 <!-- Favourites Button-->
         <ImageButton
             android:id="@+id/favouriteBtnPA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
             android:src="@drawable/favorite_empty_icon"
             android:background="@color/transparent"
             android:layout_marginStart="10dp"
@@ -88,7 +88,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:icon="@drawable/previous_icon"
-            app:iconSize="40dp"/>
+            app:iconSize="40dp"
+            android:contentDescription="@string/previousbtn"/>
 
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/playPauseBtnPA"
@@ -99,14 +100,16 @@
             android:layout_marginHorizontal="25dp"
             app:shapeAppearanceOverlay="@style/curved"
             android:backgroundTint="@color/light_red"
-            app:iconTint="@color/white"/>
+            app:iconTint="@color/white"
+            android:contentDescription="@string/playpausebtn"/>
         
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/nextBtnPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:icon="@drawable/next_icon"
-            app:iconSize="40dp"/>
+            app:iconSize="40dp"
+            android:contentDescription="@string/nextBtn"/>
 
     </LinearLayout>
 
@@ -155,7 +158,7 @@
         <ImageButton
             android:id="@+id/repeatBtnPA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:src="@drawable/repeat_icon"
             android:background="@color/transparent"
             app:tint="@color/cool_pink"
@@ -166,7 +169,7 @@
         <ImageButton
             android:id="@+id/equalizerBtnPA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:src="@drawable/equalizer_icon"
             android:background="@color/transparent"
             app:tint="@color/cool_pink"
@@ -176,7 +179,7 @@
         <ImageButton
             android:id="@+id/timerBtnPA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:src="@drawable/timer_icon"
             android:background="@color/transparent"
             app:tint="@color/cool_pink"
@@ -186,7 +189,7 @@
         <ImageButton
             android:id="@+id/shareBtnPA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:src="@drawable/share_icon"
             android:background="@color/transparent"
             app:tint="@color/cool_pink"

@@ -12,11 +12,11 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:src="@drawable/timer_icon"
             android:contentDescription="@string/min_15"
-            android:layout_margin="8dp"
+            android:layout_margin="4dp"
             app:tint="@color/cool_pink" />
 
         <TextView
@@ -25,7 +25,7 @@
             android:text="@string/min_15"
             android:textSize="18sp"
             android:textColor="@color/black"
-            android:padding="8dp"/>
+            android:padding="12dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -34,11 +34,11 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:src="@drawable/timer_icon"
             android:contentDescription="@string/min_30"
-            android:layout_margin="8dp"
+            android:layout_margin="4dp"
             app:tint="@color/cool_pink" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:text="@string/min_30"
             android:textSize="18sp"
             android:textColor="@color/black"
-            android:padding="8dp"/>
+            android:padding="12dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -56,11 +56,11 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:src="@drawable/timer_icon"
             android:contentDescription="@string/min_60"
-            android:layout_margin="8dp"
+            android:layout_margin="4dp"
             app:tint="@color/cool_pink" />
 
         <TextView
@@ -69,6 +69,6 @@
             android:text="@string/min_60"
             android:textSize="18sp"
             android:textColor="@color/black"
-            android:padding="8dp"/>
+            android:padding="12dp"/>
     </LinearLayout>
 </LinearLayout>
